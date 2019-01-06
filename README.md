@@ -1,4 +1,4 @@
-# ArithmeticEvaluator
+# Arithmetic Evaluator
 ## Desription
 Simple **arithmetic calculator** with support for some math functions.
 Basic operations: +, -, *, /, %, ^;
