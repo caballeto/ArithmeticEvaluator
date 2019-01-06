@@ -38,7 +38,7 @@ public class Parser {
   private Expr multiplication() {
     Expr expr = exponentiation();
 
-    while (match(SLASH, STAR)) {
+    while (match(SLASH, STAR, REMAINDER)) {
       Token operator = previous();
       Expr right = exponentiation();
       expr = new Expr.Binary(expr, operator, right);

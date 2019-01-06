@@ -39,6 +39,7 @@ public class Scanner {
       case '*': addToken(STAR); break;
       case '/': addToken(SLASH); break;
       case '^': addToken(EXPONENT); break;
+      case '%': addToken(REMAINDER); break;
       case ',': addToken(COMMA); break;
       case '\t':
       case '\r':

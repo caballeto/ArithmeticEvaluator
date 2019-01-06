@@ -60,6 +60,9 @@ public class Evaluator implements Expr.Visitor<Object> {
       case EXPONENT:
         checkOperands(left, right);
         return Math.pow((double) left, (double) right);
+      case REMAINDER:
+        checkOperands(left, right);
+        return ((double) left) % ((double) right);
     }
 
     return null;
