@@ -4,20 +4,20 @@ Simple **arithmetic calculator** with support for some math functions.
 Basic operations: +, -, *, /, %, ^;
 
 Supports following functions:
-1. max
-2. min
-3. pow
-4. sqrt
-5. sin
-6. cos
-7. tan
-8. signum
-9. abs
-10. exp
-11. log
-12. log10
-13. floor
-14. ceil
+- max
+- min
+- pow
+- sqrt
+- sin
+- cos
+- tan
+- signum
+- abs
+- exp
+- log
+- log10
+- floor
+- ceil
 
 ## Examples
 ```
