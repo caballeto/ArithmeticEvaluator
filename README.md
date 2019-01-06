@@ -1,13 +1,7 @@
 # ArithmeticEvaluator
-##Desription
+## Desription
 Simple **arithmetic calculator** with support for some math functions.
-Basic operations are:
-1. +
-2. -
-3. *
-4. /
-5. %
-6. ^
+Basic operations: +, -, *, /, %, ^;
 
 Supports following functions:
 1. max
@@ -25,7 +19,7 @@ Supports following functions:
 13. floor
 14. ceil
 
-##Examples
+## Examples
 ```
 pow(max(5, 2), min(2, 5))
 -1 - 5 - 8 -73+ log10(10000)*signum(-10)
